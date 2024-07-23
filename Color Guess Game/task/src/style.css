@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    color: gray;
+    text-shadow: 2px 2px 0 #000;
+    font-size: 50px;
+}
+
+.color-block {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.color-block:hover {
+    scale: 1.1;
+}
+
+main {
+    text-align: center;
+}
+
+#rgb-color {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#status {
+    margin: 20px;
+    font-size: 20px;
+}
+
+#restart {
+    background-color: deepskyblue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#restart:hover {
+    background-color: blue;
+}
